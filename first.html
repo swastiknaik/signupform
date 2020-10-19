@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  </head>
+  <body  onload="onLoad()">
+
+    <div class="container">
+     
+      <div class="form-name"> 
+        <h1 class="main-head"><span class="material-icons main-icon">
+        login
+        </span>SIGN UP <span id="clrheading">HERE..</span></h1>
+      </div>
+      <div>
+        <form id="signup-form">
+          <div class="feild-name-block">
+            <label class="feild-name">First Name</label>
+          </div>
+
+          <div class="feild-input-block">
+            <input type="text" id="firstName" placeholder="First Name" maxlength="15">
+            <span id="firstNameWarning" class="material-icons warning warning-hide">info</span>
+          </div>
+
+          <div class="feild-name-block">
+            <label class="feild-name">Last Name</label>
+          </div>
+
+          <div class="feild-input-block">
+            <input type="text" id="lastName" placeholder="Last Name" maxlength="15">
+            <span id="lastNameWarning" class="material-icons warning warning-hide">info</span>
+          </div>
+
+          <div class="feild-name-block">
+            <label class="feild-name">Email</label>
+          </div>
+
+          <div class="feild-input-block">
+            <input type="text" id="email" placeholder="Someone@example.com" maxlength="15">
+                <span id="emailWarning" class="material-icons warning warning-hide">info</span>
+          </div>
+
+          <div class="feild-name-block">
+            <label class="feild-name">Mobile</label>
+          </div>
+
+          <div class="feild-input-block">
+            <input type="text" id="mobile" placeholder="1234567890" maxlength="10">
+                <span id="mobileWarning" class="material-icons warning warning-hide">info</span>
+          </div>
+
+          <div class="feild-name-block">
+            <label class="feild-name">Create Password</label>
+          </div>
+
+          <div class="feild-input-block">
+            <input type="password" id="createPW" placeholder="Password" maxlength="20">
+                <span id="createWarning" class="material-icons warning warning-hide">info</span>
+          </div>
+
+          <div class="feild-name-block">
+            <label class="feild-name">Confirm Password</label>
+          </div>
+
+          <div class="feild-input-block">
+            <input type="password" id="ConfirmPW" placeholder="Confirm Password" maxlength="20">
+                <span id="confirmWarning" class="material-icons warning warning-hide">info</span>
+          </div>
+
+          <div class="button block">
+            <input type="button"  value="Sign Up" class="button" onclick="onSubmitClick()">
+        
+
+          </div>
+
+        </form>
+
+
+      </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="first.js">
+
+    </script>
+  </body>
+</html>
